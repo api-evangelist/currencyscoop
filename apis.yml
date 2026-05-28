@@ -1,0 +1,32 @@
+aid: currencyscoop
+name: CurrencyScoop
+description: "Real-time and historical currency rates JSON API"
+url: https://currencyscoop.com/api-documentation
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Currency Exchange"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Currency Exchange
+  - Public APIs
+apis:
+  - name: CurrencyScoop
+    description: "Real-time and historical currency rates JSON API"
+    humanURL: https://currencyscoop.com/api-documentation
+    baseURL: https://currencyscoop.com/api-documentation
+    tags:
+      - Currency Exchange
+    properties:
+      - type: Documentation
+        url: https://currencyscoop.com/api-documentation
+common:
+  - type: Website
+    url: https://currencyscoop.com/api-documentation
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
